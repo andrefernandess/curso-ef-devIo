@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ubbe/Documentos/Estudo/AspNet/curso-EfCore/Curso/curso-console.csproj": {}
+  },
+  "projects": {
+    "/home/ubbe/Documentos/Estudo/AspNet/curso-EfCore/Curso/curso-console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ubbe/Documentos/Estudo/AspNet/curso-EfCore/Curso/curso-console.csproj",
+        "projectName": "curso-console",
+        "projectPath": "/home/ubbe/Documentos/Estudo/AspNet/curso-EfCore/Curso/curso-console.csproj",
+        "packagesPath": "/home/ubbe/.nuget/packages/",
+        "outputPath": "/home/ubbe/Documentos/Estudo/AspNet/curso-EfCore/Curso/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ubbe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
